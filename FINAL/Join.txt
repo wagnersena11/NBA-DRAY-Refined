@@ -1,0 +1,1 @@
+Using join in pandas, I combined both nba_off and nba_def into one dataframe. Then, I took just the Positions column from nba_cluster and joined it to the new dataframe. Each position number was changed to their actual position name. The dataframe was then converted into a csv in Python.

@@ -1,0 +1,15 @@
+The code used to produce figure1 had the following:
+
+In [143]: plt.figure(figsize=(12,10))
+Out[143]: <matplotlib.figure.Figure at 0x1a44631e50>
+
+In [144]: parallel_coordinates(df2, 'Position', color=['r','b','y'])
+Out[144]: <matplotlib.axes._subplots.AxesSubplot at 0x1a44651910>
+
+In [145]: plt.xticks(fontsize=5,rotation=50)
+Out[145]: 
+(array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
+        17, 18, 19, 20]), <a list of 21 Text xticklabel objects>)
+
+In [146]: plt.title('Parallel Coordinates by Position')
+Out[146]: <matplotlib.text.Text at 0x1a4413f9d0>
